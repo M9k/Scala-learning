@@ -12,6 +12,14 @@ object Collection {
     // Nil = coda
     // cons (::) = lista non vuota, classe con costruttore e metodo
     // new ::[Nil](4,Nil)
+    
+    //ATTENZIONE!
+    // I metodi che terminano per : vengono applicati al "contrario", da destra a sinistra, quindi
+    //
+    // a metodo b => a.(b)
+    // a metodo: b => b.(a)
+    //
+    
     val sasd = 1 :: 2 :: 3 :: Nil
     // List.concat() o ::: o List.:::()
     
