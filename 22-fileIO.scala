@@ -26,9 +26,7 @@ object FileIO {
      println((new test(4) {print; printInfo; hello; hello2}).x) //chiama prima _.metodo, poi le funzioni, hello2 e inacessibile
    }
 
-   class test(xp:Int = 5, yp:Int = 10) {
-     var x:Int = xp
-     val y:Int = yp
+   class test(x:Int = 5, y:Int = 10) {
 
      def printInfo {
        println("printInfo")
